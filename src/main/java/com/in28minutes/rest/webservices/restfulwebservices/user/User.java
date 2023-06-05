@@ -15,7 +15,7 @@ import java.util.List;
 @Entity(name="user_details")
 public class User {
 
-    protected User(){
+    public User(){
 
     }
 
@@ -79,4 +79,5 @@ public class User {
                 ", birthDate=" + birthDate +
                 '}';
     }
+
 }
